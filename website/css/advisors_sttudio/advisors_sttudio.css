@@ -1,0 +1,76 @@
+/* banner start */
+.video-banner {
+    position: relative;
+    width: 100%;
+    height: 75vh; /* Full-screen height */
+    overflow: hidden;
+  }
+  
+  .banner-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .std_ban_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgb(0, 0, 0,0.7));
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  .banner-text h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .banner-text p {
+    font-size: 1.5rem;
+    margin: 10px 0 0;
+  }
+/* banner end */
+/* about us start */
+#abt_std{
+    margin-top: 50px;
+}
+.abt_std_header h2{
+    font-weight: bold;
+}
+.abt_std_details p{
+    text-align: justify;
+    padding: 10px;
+}
+.abt_std_btn a{
+    padding: 8px 16px;
+    background: linear-gradient(#22C2F2,#67d4f6);
+    border-radius: 5px;
+    transition: 0.3s;
+    color: #000;
+    font-size: 14px;
+}
+/* about us end */
+/* portfolio start */
+.std_portfolio_header{
+    margin-top: 50px;
+}
+.std_portfolio_header h2{
+    font-weight: bold;
+}
+.portfolio_item{
+    width: 100%;
+    border-radius: 25px;
+    border: 5px solid #22C2F2;
+    margin-top: 20px;
+}
+/* portfolio end */

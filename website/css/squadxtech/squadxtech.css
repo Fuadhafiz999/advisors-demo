@@ -1,0 +1,236 @@
+
+a{
+    text-decoration: none;
+}
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #f85059;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none; /* Hidden by default */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#backToTop:hover {
+    background-color: #CD161E;
+}
+/* header start */
+header{
+    height: 42px;
+    background: linear-gradient(#cd161f,#f85059);
+}
+.header_icon, .header_icon a, .header_text{
+    line-height: 42px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    transition: 0.3s;
+}
+.header_icon a{
+    padding: 0 15px;
+    color: #ffffff;
+}
+.header_icon a:hover{
+    color: #000000;
+}
+/* header end */
+
+/* nav start */
+nav{
+    height: 80px !important;
+    background-color: #ffffff !important;
+    position: sticky !important;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.toggle_bg{
+    background-color: #ffffff;
+}
+.navbar-brand img{
+    height: 60px !important;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+nav ul li a{
+    font-size: 18px !important;
+    padding: 8px 20px !important;
+    transition: 0.2s;
+    color: #000000 !important;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #CD161E !important;
+}
+.nav-link {
+    padding-top: 26px !important;
+    padding-bottom: 26px !important;
+}
+.dropdown-menu{
+    border-radius: 0;
+    padding: .5em;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .23);
+    border: none;
+}
+.dropdown-menu ul{
+    list-style: none;
+    padding: 0;
+}
+.dropdown-menu ul li a:hover i{
+    color: #CD161E;
+}
+/* nav end */
+/* banner start */
+#banner{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../../images/Squadxtech/banner/banner\ g.png) no-repeat center / cover;
+    padding: 100px 0;
+}
+.banner_content{
+    color: #ffffff;
+    h2{
+        font-size: 64px;
+    }
+    h4{
+        font-size: 22px;
+    }
+}
+/* banner end */
+/* about start */
+#aboutid{
+    margin-top: 100px;
+}
+.about_header h2{
+    font-weight: bold;
+}
+.about_content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about_details{
+    width: 60%;
+}
+.about_details p{
+    color: #1d1d1d !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-top: 50px;
+}
+.about_img{
+    width: 30%;
+    height: 100%;
+    border: 2px dashed #301e1e;
+    margin-top: 55px;
+}
+.about_img img{
+    width: 100%;
+}
+/* about end */
+/* product start */
+#productid{
+    margin-top: 100px;
+}
+.popular_course_header h2{
+    font-weight: bold;
+}
+.product_sub_header h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.product_item_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.product_item{
+    background: #ffffff;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    overflow: hidden;
+    width: 20%;
+}
+.product_item_img{
+    width: 100%;
+    height: 200px;
+}
+.product_item_details{
+    padding: 10px;
+    position: relative;
+}
+.product_item_details a{
+    color: #1f1e1e;
+    font-size: 18px;
+}
+.product_item_details a:hover{
+    color: #CD161E;
+}
+.product_item_details p{
+    color: #212529;
+    margin-top: 10px;
+}
+.stock{
+    color: #f85059 !important;
+}
+.product_Order_btn{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.product_Order_btn .addcart{
+    color: #1d1d1d !important;
+    padding: 4px 6px;
+    border-radius: 5px;
+    border: 2px solid #CD161E;
+    text-align: center;
+    transform: 0.2s;
+    transform: scale(1);
+    transition: 0.2s;
+    font-size: 14px;
+}
+.product_Order_btn .ordernow{
+    color: #ffffff !important;
+    padding: 6px 8px;
+    background: linear-gradient(#CD161E,#f85058);
+    border-radius: 5px;
+    text-align: center;
+    transform: 0.2s;
+    transform: scale(1);
+    transition: 0.2s;
+    font-size: 14px;
+}
+
+.product_Order_btn .ordernow:hover{
+    transform: scale(.9);
+}
+/* product end */
+/* footer start */
+footer{
+    background: #301e1e;
+}
+.footer_item{
+    text-align: center;
+}
+.footer_item a,p{
+    text-decoration: none;
+    color: #d4d4d4;
+}
+.footer_item a::after{
+    display: none;
+}
+/* footer end */

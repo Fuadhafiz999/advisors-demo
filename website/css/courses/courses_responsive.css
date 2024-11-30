@@ -1,0 +1,36 @@
+/* responsive css start */
+
+
+@media (max-width: 576px) { /* Styles for extra small devices (phones) */
+    .course_item{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) { /* Styles for small devices (tablets) */
+    .course_item{
+        width: 48%;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) { /* Styles for medium devices (laptops) */
+    .course_item{
+        width: 45%;
+    }
+    
+}
+
+
+@media (min-width: 993px) and (max-width: 1200px) { /* Styles for large devices (large laptops) */
+
+}
+
+
+@media (min-width: 1201px) { /* Styles for extra large devices (very large desktop monitors) */
+
+}
+
+
+/* responsive css end */

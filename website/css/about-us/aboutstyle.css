@@ -1,0 +1,115 @@
+/* abt banner start */
+#abt_banner{
+    margin-top: 50px;
+}
+.abt_banner h2{
+    color: #212529;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: "Inter", serif;
+}
+.abt_banner p{
+    color: #605f62;
+    font-size: 16px;
+    font-family: "Inter", serif;
+    text-align: justify;
+}
+/* abt banner end */
+/* abt vision start */
+#abt_vision{
+    margin-top: 50px;
+}
+.our_vision_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.our_vision{
+    margin-top: 20px;
+    padding-right: 20px;
+    width: 50%;
+}
+.our_vision p{
+    text-align: justify;
+    color: #605f62;
+    font-size: 16px;
+    font-family: "Inter", serif;
+}
+.our_vision h2{
+    color: #212529;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: "Inter", serif;
+}
+.abt_vision_img img{
+    width: 100%;
+}
+/* abt vision end */
+/* course structure start */
+#course_structure{
+    margin: 50px 0;
+}
+.course_structure_container h2{
+    color: #212529;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: "Inter", serif;
+}
+.course_structure_container p{
+    color: #605f62;
+    font-size: 16px;
+    font-family: "Inter", serif;
+    text-align: justify;
+}
+.abt_browse_course_btn{
+    margin: 20px 0;
+}
+.abt_browse_course_btn a{
+    padding: 12px 20px;
+    background: linear-gradient(#22C2F2,#67d4f6);
+    color: #212529;
+    transition: 0.2s;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+.abt_browse_course_btn a:hover{
+    background: linear-gradient(#22c1f200,#67d5f600);
+}
+.abt_browse_course_btn a span{
+    position: relative;
+}
+.abt_browse_course_btn a span::after{
+    height: 2px;
+    width: 0;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+    transition: 0.2s;
+}
+.abt_browse_course_btn a span:hover::after{
+    width: 100%;
+}
+/* course structure end */
+/* about visit start */
+#abt_visit{
+    margin: 0 0 50px 0;
+}
+.visit_us h2{
+    color: #212529;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: "Inter", serif;
+}
+.visit_us p{
+    color: #605f62;
+    font-size: 16px;
+    font-family: "Inter", serif;
+    text-align: justify;
+}
+.visit_us_map{
+    height: 250px;
+    width: 100%;
+}
+/* about visit end */

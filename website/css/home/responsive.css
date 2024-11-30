@@ -1,0 +1,239 @@
+
+@media (max-width: 576px) { /* Styles for extra small devices (phones) */
+    /* banner start */
+    #banner{
+        text-align: center;
+    }
+    .banner_content{
+        padding-top: 30px;
+    }
+    /* banner end */
+    /* popular course start */
+    .course_item{
+        width: 100%;
+    }
+    .course_3{
+        display: none;
+    }
+    /* popular course end */
+    /* apart start */
+    .apart_item{
+        width: 100%;
+    }
+    /* apart end */
+    /* discount start */
+    .discount .name{
+        width: 100%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .number{
+        width: 100%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .profession{
+        width: 100%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .location{
+        width: 100%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .course_name{
+        width: 100%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    /* discount end */
+    /* payment start */
+    .payment_method_item{
+        width: 100%;
+    }
+    /* payment end */
+    /* footer start */
+    .footer_item{
+        width: 100%;
+    }
+    /* footer end */
+  }
+  
+  @media (min-width: 577px) and (max-width: 768px) { /* Styles for small devices (tablets) */
+    /* banner start */
+    #banner{
+        text-align: center;
+    }
+    .banner_content{
+        padding-top: 30px;
+    }
+    /* banner end */
+    /* popular course start */
+    .course_item{
+        width: 45%;
+    }
+    .course_3{
+        display: none;
+    }
+    /* popular course end */
+    /* apart start */
+    .apart_item{
+        width: 80%;
+    }
+    /* apart end */
+    /* discount start */
+    .discount .name{
+        width: 80%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .number{
+        width: 80%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .profession{
+        width: 80%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .location{
+        width: 80%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .course_name{
+        width: 80%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .question_of_user{
+        width: 80%;
+    }
+    /* discount end */
+    /* payment start */
+    .payment_method_item{
+        width: 80%;
+    }
+    /* payment end */
+    /* footer start */
+    .footer_item{
+        width: 80%;
+    }
+    /* footer end */
+}
+  @media (min-width: 769px) and (max-width: 992px) { /* Styles for medium devices (laptops) */
+    /* banner start */
+    .banner_content{
+        padding-top: 30px;
+    }
+    /* banner end */
+    /* popular course start */
+    .course_item{
+        width: 45%;
+    }
+    .course_3{
+        display: none;
+    }
+    /* popular course end */
+    /* apart start */
+    .apart_item{
+        width: 50%;
+    }
+    /* apart end */
+    /* discount start */
+    .discount .name{
+        width: 100%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .number{
+        width: 46%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .profession{
+        width: 46%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .location{
+        width: 46%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .course_name{
+        width: 46%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    /* discount end */
+    /* payment start */
+    .payment_method_item{
+        width: 40%;
+    }
+    /* payment end */
+    /* footer start */
+    .footer_item{
+        width: 50%;
+    }
+    /* footer end */
+  }
+  
+  /* @media (min-width: 993px) and (max-width: 1200px) { Styles for large devices (large laptops)} */
+  
+  @media (min-width: 1201px) { /* Styles for extra large devices (very large desktop monitors) */
+    /* banner start */
+    .banner_text{
+        padding-top: 50px;
+    }
+    /* banner end */
+    /* popular course start */
+    .course_item{
+        width: 30%;
+    }
+    /* popular course end */
+    /* apart start */
+    .apart_item{
+        width: 30%;
+    }
+    /* apart end */
+    /* discount start */
+    .discount .name{
+        width: 100%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .number{
+        width: 48%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .profession{
+        width: 48%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .location{
+        width: 48%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .discount .course_name{
+        width: 48%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    /* discount end */
+    /* payment start */
+    .payment_method_item{
+        width: 25%;
+    }
+    /* payment end */
+    /* footer start */
+    .footer_item{
+        width: 33%;
+    }
+    /* footer end */
+  }

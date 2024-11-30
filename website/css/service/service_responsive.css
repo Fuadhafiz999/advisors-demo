@@ -1,0 +1,55 @@
+/* responsive css start */
+
+
+@media (max-width: 576px) { /* Styles for extra small devices (phones) */
+    .service_item{
+        justify-content: center;
+    }
+    .service_item_details{
+        margin-top: 50px;
+    }
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) { /* Styles for small devices (tablets) */
+    .service_item{
+        justify-content: center;
+    }
+    .service_item_details{
+        margin-top: 50px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) { /* Styles for medium devices (laptops) */
+    .service_item{
+        justify-content: center;
+    }
+    .service_item_details{
+        margin-top: 50px;
+    }
+    .service_knowmore{
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 993px) and (max-width: 1200px) { /* Styles for large devices (large laptops) */
+    .service_item{
+        justify-content: center;
+    }
+    .service_item_details{
+        margin-top: 50px;
+    }
+    .service_knowmore{
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 1201px) { /* Styles for extra large devices (very large desktop monitors) */
+
+}
+
+
+/* responsive css end */

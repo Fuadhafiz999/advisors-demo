@@ -1,0 +1,111 @@
+
+@media (max-width: 576px) { /* Styles for extra small devices (phones) */
+    /* payment start */
+    .payment_method_item{
+        width: 100% !important;
+    }
+    /* payment end */
+    /* footer start */
+    .footer_item{
+        width: 100% !important;
+    }
+    /* footer end */
+  }
+  
+  @media (min-width: 577px) and (max-width: 768px) { /* Styles for small devices (tablets) */
+    /* payment start */
+    .payment_method_item{
+        width: 80% !important;
+    }
+    /* payment end */
+    /* footer start */
+    .footer_item{
+        width: 80%  !important;
+    }
+    /* footer end */
+}
+  @media (min-width: 769px) and (max-width: 992px) { /* Styles for medium devices (laptops) */
+    /* payment start */
+    .payment_method_item{
+        width: 40% !important;
+    }
+    /* payment end */
+    /* footer start */
+    .footer_item{
+        width: 50%;
+    }
+    /* footer end */
+  }
+  
+  /* @media (min-width: 993px) and (max-width: 1200px) { Styles for large devices (large laptops)} */
+  
+  @media (min-width: 1201px) { /* Styles for extra large devices (very large desktop monitors) */
+    /* payment start */
+    .payment_method_item{
+        width: 25% !important;
+    }
+    /* payment end */
+    /* footer start */
+    .footer_item{
+        width: 33%;
+    }
+    /* footer end */
+  }
+
+
+/* payment start */
+#payment{
+    margin-top: 100px;
+}
+.payment_header h4{
+    font-weight: bold;
+    font-size: 22px;
+}
+.payment_method{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.payment_method_item{
+    width: 25%;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 6%);
+}
+.payment_method_item_img{
+    padding: 20px 10px 10px 10px;
+}
+.payment_method_item_text{
+    padding: 10px 10px 20px 10px;
+}
+/* payment end */
+/* footer start */
+footer{
+    margin-top: 100px;
+    background: #10566b;
+    color: #ffffff;
+}
+footer a{
+    color: #ffffff;
+}
+.footer_header{
+    color: #ffffff;
+    padding: 50px 0;
+}
+.footer_header h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.footer_header p{
+    font-size: 19px;
+}
+.footer_main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer_item{
+    width: 33%;
+    padding: 50px;
+}
+/* footer end */

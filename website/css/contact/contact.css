@@ -1,0 +1,35 @@
+#contact{
+    margin-top: 50px;
+}
+.contact_header{
+    margin-bottom: 50px;
+}
+.contact_header h2{
+    color: #212529;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: "Inter", serif;
+}
+.contact_header p{
+    color: #605f62;
+    font-size: 16px;
+    font-family: "Inter", serif;
+    text-align: justify;
+}
+.contact_us_map{
+    height: 470px;
+    width: 100%;
+}
+.contact_details{
+    padding-left: 20px;
+}
+.contact_details h2{
+    color: #181818;
+    font-weight: bold;
+    font-size: 22px;
+}
+.contact_details p{
+    color: #212529;
+    font-family: "Inter", serif;
+    font-size: 16px;
+}

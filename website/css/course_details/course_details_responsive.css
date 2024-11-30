@@ -1,0 +1,53 @@
+/* responsive css start */
+@media (max-width: 576px) { /* Styles for extra small devices (phones) */
+        /* banner start */
+        .cd_banner_content{
+            text-align: center;
+            align-items: center;
+        }
+        .cd_banner_details_keypoints {
+            justify-content: space-between;
+        }
+        .keypoint_item{
+            margin-right: 0;
+        }
+        .cd_banner_about_text p{
+            padding: 0px 20px;
+        }
+        /* banner end */
+        /* enroll now start */
+        .enroll_now_details h3{
+            font-size: 20px;
+        }
+        .enroll_now_btn a{
+            font-size: 16 !important;
+        }
+        /* enroll now end */
+    }
+    @media (min-width: 577px) and (max-width: 768px) { /* Styles for small devices (tablets) */
+        /* banner start */
+        .cd_banner_content{
+            text-align: center;
+            align-items: center;
+        }
+        .cd_banner_details_keypoints {
+            justify-content: space-between;
+        }
+        .keypoint_item{
+            margin-right: 0;
+        }
+        .cd_banner_about_text p{
+            padding-right: 0px;
+        }
+        /* banner end */
+    }
+    @media (min-width: 769px) and (max-width: 992px) { /* Styles for medium devices (laptops) */
+        
+    }
+    @media (min-width: 993px) and (max-width: 1200px) { /* Styles for large devices (large laptops) */
+
+    }
+      @media (min-width: 1201px) { /* Styles for extra large devices (very large desktop monitors) */
+
+    }
+    /* responsive css end */

@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Frontend Development - Advisors</title>
+    <link rel="shortcut icon" href="images/home/logo/fav-icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/home/style.css">
+    <link rel="stylesheet" href="css/home/responsive.css">
+    <link rel="stylesheet" href="css/nav/header_nav_style.css">
+    <link rel="stylesheet" href="css/footer/footer.css">
+    <link rel="stylesheet" href="css/course_details/course_details.css">
+    <link rel="stylesheet" href="css/course_details/course_details_responsive.css">
+</head>
+<body>
+  <!-- back to top button start -->
+  <button id="backToTop" onclick="scrollToTop()"><i class="fa-solid fa-chevron-up"></i></button>
+  <!-- back to top button end -->
+  <!-- header start -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="header_icon">
+            <a href="https://www.facebook.com/profile.php?id=61567101881064" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-6 text-end">
+          <div class="header_text">
+            <p><i class="fa-solid fa-phone"></i> <span>01857430707</span>&nbsp;&nbsp;<i class="fa-solid fa-clock"></i> 10:00 AM - 9:00 PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- nav start -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/home/logo/logo.jpg" alt="Advisors" style="height: 80px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="color: black !important;"></span>
+      </button>
+      <div class="collapse navbar-collapse toggle_bg" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./courses.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Courses
+            </a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a class="dropdown-item" href="./courses.html">For Professionals</a></li>
+                <li><a class="dropdown-item" href="#"> Graphic Design</a></li>
+                <li><a class="dropdown-item" href="#"> Office Managment</a></li>
+                <li><a class="dropdown-item" href="#"> CompTIA+</a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="./courses.html">For Freelancing</a></li>
+                <li><a class="dropdown-item" href="#"> Graphic Design</a></li>
+                <li><a class="dropdown-item" href="#"> Digital Marketing</a></li>
+                <li><a class="dropdown-item" href="./course_details.html"> Web Design (Frontend)</a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="./courses.html">For Academics</a></li>
+                <li><a class="dropdown-item" href="#"> Class 6</a></li>
+                <li><a class="dropdown-item" href="#">Class 7</a></li>
+                <li><a class="dropdown-item" href="#"> Class 8</a></li>
+                <li><a class="dropdown-item" href="#"> S.S.C</a></li>
+                <li><a class="dropdown-item" href="#"> H.S.C</a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="./courses.html">For Spoken</a></li>
+                <li><a class="dropdown-item" href="#"> English</a></li>
+                <li><a class="dropdown-item" href="#"> Arabic</a></li>
+                <li><a class="dropdown-item" href="#"> Urdu</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./service.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a class="dropdown-item" href="./squadxtech.html">SquadXtech</a></li>
+                <li><a class="dropdown-item" href="./squadxtech.html">All in One Pendrive</a></li>
+                <li><a class="dropdown-item" href="./squadxtech.html">Security Camera Setup</a></li>
+                <li><a class="dropdown-item" href="./squadxtech.html">PC Build & Setup</a></li>
+                <li><a class="dropdown-item" href="./squadxtech.html">Gadgets & Accesories</a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="./advisors_sttudio.html">Studio.advisors</a></li>
+                <li><a class="dropdown-item" href="./advisors_sttudio.html">Photography</a></li>
+                <li><a class="dropdown-item" href="./advisors_sttudio.html">Videography</a></li>
+                <li><a class="dropdown-item" href="./advisors_sttudio.html">Cinematography</a></li>
+                <li><a class="dropdown-item" href="./advisors_sttudio.html">Documentory</a></li>
+                <li><a class="dropdown-item" href="./advisors_sttudio.html">Studio Recordings</a></li>
+              </ul>
+              <!-- <ul>
+                <li><a class="dropdown-item" href="./pc_sell_&_servicing.html">PC sells & services</a></li>
+                <li><a class="dropdown-item" href="./pc_sell_&_servicing.html">PC Build</a></li>
+                <li><a class="dropdown-item" href="./pc_sell_&_servicing.html">PC Repair</a></li>
+                <li><a class="dropdown-item" href="./pc_sell_&_servicing.html">Tech Support</a></li>
+                <li><a class="dropdown-item" href="./pc_sell_&_servicing.html">PC Troubleshooting</a></li>
+              </ul> -->
+            </div>
+          </li>
+          <li class="nav-item nav_contact">
+            <a class="nav-link nav_contactlink" href="./contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav end -->
+<!-- banner start -->
+ <section id="cd_bannerid" style="background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/course-details/banner/course-ban-bg.png) no-repeat center / cover;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="cd_banner_content">
+                    <div class="cd_banner_details">
+                        <div class="cd_banner_header">
+                            <h3>Master the Art of Web Layout Design</h3>
+                            <h2>Responsive Frontend Development</h2>
+                        </div>
+                        <div class="cd_banner_details_keypoints">
+                            <div class="keypoint_item">
+                                <p>Duration</p>
+                                <h4>6 Month</h4>
+                            </div>
+                            <div class="keypoint_item">
+                                <p>Lectures</p>
+                                <h4>42 Lectures</h4>
+                            </div>
+                            <div class="keypoint_item">
+                                <p>Projects</p>
+                                <h4>10+</h4>
+                            </div>
+                        </div>
+                        <div class="cd_banner_about_text">
+                            <p>Learning web design is essential in today's digital age. A well-designed website can significantly 
+                                impact your online presence and business success. Our Responsive Web Design course equips you with 
+                                the skills to create websites that look great and function seamlessly on all devices. You'll learn 
+                                the latest techniques and tools to build responsive, mobile-friendly websites that engage your audience 
+                                and drive results.
+                            </p>
+                        </div>
+                        <div class="cd_banner_btn">
+                            <a href="#">Admission</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- banner end -->
+<!-- enroll_to_course start -->
+ <section id="enroll_now">
+  <div class="container custom_container" style="background: #daf3fc;">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <div class="enroll_now_header">
+          <h2>Admission is going on</h2>
+          <p>Enroll now to any of our courses as per your suitable time.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="enroll_now_main">
+          <div class="enroll_now_details">
+            <h3>Responsive Frontend Development</h3>
+            <h4>Course Fee : 18,000 BDT</h4>
+          </div>
+          <div class="enroll_now_btn">
+            <a href="#">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+<!-- enroll_to_course end -->
+<!-- why enroll start -->
+<section id="why_enroll_id">
+    <div class="container custom_container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="why_enroll_wrapper">
+                    <div class="why_enroll_header">
+                        <h2>Why Should You Enroll?</h2>
+                    </div>
+                    <div class="enroll_feature">
+                        <ul>
+                            <li><i class="fa-solid fa-circle-check"></i> Learn from experienced mentors and build a strong portfolio.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Learn from experienced mentors and build a strong portfolio.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Learn from experienced mentors and build a strong portfolio.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Learn from experienced mentors and build a strong portfolio.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Learn from experienced mentors and build a strong portfolio.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Choose from flexible learning options to fit your lifestyle.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Choose from flexible learning options to fit your lifestyle.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- why enroll end -->
+<!-- What learn start -->
+<section id="what_learn_id">
+    <div class="container custom_container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="what_learn_wrapper">
+                    <div class="what_learn_header">
+                        <h2>What You'll Learn</h2>
+                    </div>
+                    <div class="learn_feature">
+                        <ul>
+                            <li><i class="fa-solid fa-square-check"></i> Responsive web layout</li>
+                            <li><i class="fa-solid fa-square-check"></i> HTML and CSS.</li>
+                            <li><i class="fa-solid fa-square-check"></i> Javascript Functions</li>
+                            <li><i class="fa-solid fa-square-check"></i> Bootstrap Framwork.</li>
+                            <li><i class="fa-solid fa-square-check"></i> JQuery Plugins</li>
+                            <li><i class="fa-solid fa-square-check"></i> completing 10+ real-world projects</li>
+                            <li><i class="fa-solid fa-square-check"></i> Domain-Hosting</li>
+                            <li><i class="fa-solid fa-square-check"></i> GitHub Upload</li>
+                            <li><i class="fa-solid fa-square-check"></i> Create Portfolio.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- What learn end -->
+<!-- What learn start -->
+<section id="soft_learn_id">
+    <div class="container custom_container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="soft_learn_wrapper">
+                    <div class="soft_learn_header">
+                        <h2>Softwares You'll Learn</h2>
+                    </div>
+                    <div class="soft_feature">
+                        <ul>
+                            <li><i class="fa-solid fa-desktop"></i> Visual Studio Code.</li>
+                            <li><i class="fa-solid fa-desktop"></i> Web Browsers.</li>
+                            <li><i class="fa-solid fa-desktop"></i> Figma.</li>
+                            <li><i class="fa-solid fa-desktop"></i> Basic Adobe Photoshop.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- What learn end -->
+
+  <!-- what makes us apart start -->
+  <section id="apart">
+    <div class="container custom_container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 text-center">
+          <div class="apart_header">
+            <h2>What's Makes Us Apart?</h2>
+            <p>
+              We're committed to providing the best possible learning experience. 
+              Our additional resources are designed to help you grow and succeed. 
+              Whether you're a beginner or an advanced learner, we've got everything you need to reach your full potential.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="apart_wrapper">
+            <div class="apart_item apart_item1">
+              <div class="apart_content">
+                <i class="fa-solid fa-headset"></i>
+                <h3>Personalized Support</h3>
+                <p>Our team of expert instructors is dedicated to providing you with the highest quality 
+                  education. With years of experience and a passion for teaching, they are committed to 
+                  helping you achieve your goals. Through personalized guidance and support, our instructors 
+                  will empower you to excel in your studies and beyond.  
+                </p>
+              </div>
+            </div>
+            <div class="apart_item apart_item1">
+              <div class="apart_content">
+                <i class="fa-solid fa-clapperboard"></i>
+                <h3>Class Recordings</h3>
+                <p>We understand that life can get busy. That's why we record most of our classes, 
+                  allowing you to review the content at your own pace. Watch the recordings as many 
+                  times as you need to master the material. Our flexible learning approach ensures you 
+                  can learn effectively, regardless of your schedule.  
+                </p>
+              </div>
+            </div>
+            <div class="apart_item apart_item1">
+              <div class="apart_content">
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h3>Interactive Learning</h3>
+                <p>Our interactive learning approach ensures that you're not just a passive listener. 
+                  Engage in discussions, participate in group activities, and collaborate with your peers 
+                  to enhance your learning experience. Our dynamic classrooms provide an environment where 
+                  you can ask questions, share ideas, and learn from each other.   
+                </p>
+              </div>
+            </div>
+            <div class="apart_item apart_item1">
+                <div class="apart_content">
+                    <i class="fa-solid fa-arrows-rotate"></i></i>
+                  <h3>Review Class</h3>
+                  <p>Worried about falling behind? Our dedicated review classes are here to help. Our experienced 
+                    instructors will guide you through complex concepts, ensuring you grasp every detail. We'll break 
+                    down difficult topics into easy-to-understand explanations and provide personalized support to help 
+                    you succeed. Don't let any obstacles hinder your learning journey.  
+                  </p>
+                </div>
+              </div>
+              <div class="apart_item apart_item1">
+                <div class="apart_content">
+                    <i class="fa-regular fa-heart"></i>
+                  <h3>Lifetime Support</h3>
+                  <p>At Advisors Institute, we're committed to your success, even after you graduate. Our dedicated support 
+                    team is available 24/7 to assist you with any questions or challenges. With personalized feedback and ongoing 
+                    support, you'll continue to grow in your career.
+                  </p>
+                </div>
+              </div>
+              <div class="apart_item apart_item1">
+                <div class="apart_content">
+                    <i class="fa-solid fa-desktop"></i>
+                  <h3>Practice Lab Support</h3>
+                  <p>We provide students with access to practice labs so they could complete their coursework at a time that suits them. 
+                    The steady learning vibe we create helps them pick up practical knowledge pretty easily.
+                  </p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+  <!-- what makes us apart end-->
+   <!-- course form start -->
+   <section id="discount">
+    <div class="container custom_container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 text-center">
+          <div class="discount_header">
+            <h2>To know more about the courses, please fill up the form given below. Our representative will get back to you soon.</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form action="https://api.web3forms.com/submit" method="post" class="discount" >
+            <input type="hidden" name="access_key" value="b8221167-211b-486e-866b-cbd9dc2fb5db">
+            <input type="text" name="name" placeholder="Name" class="name" required>
+            <input type="tel" name="number" placeholder="Number" class="number" required>
+            <input type="text" name="profession" placeholder="Profession" class="profession" required>
+            <input type="text" name="location" placeholder="Location" class="location" required>
+            <input type="text" name="course name" placeholder="Course Name" class="course_name" required>
+            <input type="text" name="question_of_user" placeholder="Do you have anything in your mind?" class="question_of_user">
+            <button type="submit" class="submit_btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+   </section>
+  <!-- course form end -->
+<!-- Faq start -->
+<section id="discount">
+    <div class="container custom_container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 text-center">
+          <div class="discount_header">
+            <h2>Some common and frequenly asked questions.</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Is it live class or recorded?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        This is a full live course.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        What do you need to know in advance to do the course?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        A basic understanding of computers and the internet is helpful, but no prior programming experience is required.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Can I do the course only with mobile?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        While you can access course materials and resources on your mobile device, a laptop or desktop computer is recommended for optimal learning and project work.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Where to get support during the course?
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        We have private groups for support, where 24 hours group support is provided. Also, you can get support from the trainers by direct message or call to solve the problem.
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        What happens if I missed a class?
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        You can access recordings of all important classes to catch up on missed content.
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+      </div>
+    </div>
+   </section>
+  <!-- faq end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- our payment merchant start-->
+  <section id="payment">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 text-center">
+          <div class="payment_header">
+            <h4>Our Payment Merchant</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="payment_method">
+            <div class="payment_method_item">
+              <div class="payment_method_item_img">
+                <img src="images/home/payment/bkash.png" alt="Bkash">
+              </div>
+              <div class="payment_method_item_text">
+                <h5>01857430707</h5>
+                <h5>01630608928</h5>
+              </div>
+            </div>
+            <div class="payment_method_item">
+              <div class="payment_method_item_img">
+                <img src="images/home/payment/nagad_marchant.png" alt="Nagad">
+              </div>
+              <div class="payment_method_item_text">
+                <h5>01857430707</h5>
+                <h5>01630608928</h5>
+              </div>
+            </div>
+            <div class="payment_method_item">
+              <div class="payment_method_item_img">
+                <img src="images/home/payment/rocket.png" alt="Rocket">
+              </div>
+              <div class="payment_method_item_text">
+                <h5>01857430707</h5>
+                <h5>01630608928</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+  <!-- our payment merchant end-->
+  <!-- Footer start -->
+   <footer>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 text-center">
+          <div class="footer_header">
+            <h3>Admission Is Going On</h3>
+            <p> Enroll now and unlock your potential with our cutting-edge courses.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="footer_main">
+              <div class="footer_item">
+                <h3>Contact</h3><br>
+                <p><i class="fa-solid fa-location-dot"></i> Head Office: <br>23/16, Bijli Moholla, Mohammadpur, Dhaka - 1207</p><br>
+                <p><i class="fa-solid fa-phone"></i> Tel: <br> +880 1857430707 <br>+880 1630608928</p><br>
+                <p><i class="fa-solid fa-envelope"></i> advisors.institute@gmail.com</p>
+              </div>
+              <div class="footer_item">
+                <h3>Quick Links</h3><br>
+                <a href="./index.html">Home</a> <br><br>
+                <a href="./about.html">About Us</a> <br><br>
+                <a href="./courses.html">Popular Courses</a> <br><br>
+                <a href="./service.html">Services</a> <br><br>
+                <a href="./contact.html">Contact</a>
+                <a href="#discount">Get a Discount</a>
+              </div>
+              <div class="footer_item">
+                <h3>Trending Courses</h3><br>
+                <a href="#">Graphic Design</a> <br><br>
+                <a href="#">Web Design</a><br><br>
+                <a href="#">Digital Marketing</a><br><br>
+                <a href="#">Office Managment</a><br><br>
+                <a href="#">Basic Computer</a><br><br>
+                <a href="#">CompTIA+</a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-12 text-center">
+          <p style="color: #ffffff;">This site is developed & maintained by <a href="./squadxtech.html">SquadXtech</a></p>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- Footer end -->
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="js/home/custom.js"></script>
+</body>
+</html>

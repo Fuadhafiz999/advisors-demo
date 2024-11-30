@@ -1,0 +1,188 @@
+/* responsive css start */
+@media (max-width: 576px) { /* Styles for extra small devices (phones) */
+    /* header start */
+    header{
+        text-align: center;
+        height: auto;
+    }
+    .header_text, .header_icon a{
+        text-align: center;
+        font-size: 14px;
+    }
+    /* header end */
+    /* nav start */
+    .navbar-brand img{
+        height: 50px !important;
+    }
+    .dropdown-menu.show{
+        max-height: 350px;
+        overflow-y: scroll;
+    }
+    /* nav end */
+    /* banner start */
+    .banner_content{
+        h2{
+            font-size: 44px;
+        }
+        h4{
+            font-size: 12px;
+        }
+    }
+    /* banner end */
+    /* about start */
+    .about_content{
+        justify-content: center;
+    }
+    .about_details{
+        width: 100%;
+        font-size: 15px;
+    }
+    .about_img{
+        margin-top: 50px;
+        width: 80%;
+        text-align: center;
+    }
+    /* about end */
+    /* product start */
+    .product_item_container{
+        gap: 40px;
+    }
+    .product_item{
+        width: 80%;
+    }
+    /* product end */
+    }
+    @media (min-width: 577px) and (max-width: 768px) { /* Styles for small devices (tablets) */
+        /* header start */
+        header{
+            text-align: center;
+            height: auto;
+        }
+        .header_text, .header_icon a{
+            text-align: center;
+            font-size: 16px;
+        }
+        .navbar-brand img{
+            height: 50px !important;
+        }
+        /* header end */
+        /* nav start */
+        .dropdown-menu.show{
+            max-height: 350px;
+            overflow-y: scroll;
+        }
+        /* nav end */
+        /* about start */
+        .about_content{
+            justify-content: center;
+        }
+        .about_details{
+            width: 100%;
+        }
+        .about_img{
+            margin-top: 50px;
+            width: 50%;
+            text-align: center;
+        }
+        /* about end */
+        /* product start */
+        .product_item_container{
+            gap: 40px;
+        }
+        .product_item{
+            width: 45%;
+        }
+        /* product end */
+    }
+    @media (min-width: 769px) and (max-width: 992px) { /* Styles for medium devices (laptops) */
+        /* header start */
+        header{
+            height: auto;
+            text-align: center;
+        }
+        .header_text, .header_icon a{
+            text-align: center;
+            font-size: 20px;
+        }
+        /* header end */
+        /* menu start */
+        .dropdown-menu.show{
+            max-height: 350px;
+            overflow-y: scroll;
+        }
+        .navbar-brand img{
+            height: 50px !important;
+        }
+        /* menu end */
+        /* about start */
+        .about_content{
+            justify-content: center;
+        }
+        .about_details{
+            width: 100%;
+        }
+        .about_img{
+            margin-top: 50px;
+            width: 50%;
+            text-align: center;
+        }
+        /* about end */
+        /* product start */
+        .product_item_container{
+            gap: 40px;
+        }
+        .product_item{
+            width: 45%;
+        }
+        /* product end */
+    }
+    @media (min-width: 993px) and (max-width: 1200px) { /* Styles for large devices (large laptops) */
+        /* nav start */
+        .dropdown:hover .dropdown-menu{
+            display: flex;
+            flex-direction: column;
+        }
+        .dropdown-menu.show{
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar-expand-lg .navbar-nav .dropdown-menu {
+            position: absolute;
+            left: -55px;
+        }
+        /* nav end */
+        /* about start */
+        .about_img{
+            margin-top: 85px;
+            width: 35%;
+        }
+        .about_details{
+            width: 60%;
+        }
+        /* about end */
+        /* product start */
+        .product_item_container{
+            gap: 40px;
+        }
+        .product_item{
+            width: 30%;
+        }
+        /* product end */
+      }
+      @media (min-width: 1201px) { /* Styles for extra large devices (very large desktop monitors) */
+        /* nav start */
+        .dropdown:hover .dropdown-menu{
+            display: flex;
+            flex-direction: column;
+        }
+        .dropdown-menu.show{
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar-expand-lg .navbar-nav .dropdown-menu {
+            position: absolute;
+            left: -55px;
+        }
+        /* nav end */
+      }
+    /* responsive css end */

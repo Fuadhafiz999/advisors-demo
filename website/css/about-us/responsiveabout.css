@@ -1,0 +1,83 @@
+/* responsive css start */
+
+
+@media (max-width: 576px) { /* Styles for extra small devices (phones) */
+    /* abt banner start */
+    .abt_banner h2{
+    font-size: 35px;
+    }
+    /* abt banner end */
+    /* vision start */
+    .our_vision_container{
+    justify-content: space-around;
+    }
+    .our_vision{
+    padding-right:0px;
+    width: 100%;
+    }
+    .our_vision h2{
+        font-size: 25px;
+    }
+    .abt_vision_img{
+    width: 80%;
+    }
+    /* vision end */
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) { /* Styles for small devices (tablets) */
+    .our_vision_container{
+        justify-content: space-around;
+    }
+    .our_vision{
+        padding-right:0px;
+        width: 100%;
+    }
+    .abt_vision_img{
+        width: 60%;
+    }
+    /* vision end */
+        
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) { /* Styles for medium devices (laptops) */
+    /* vision start */
+    .our_vision_container{
+        justify-content: space-around;
+    }
+    .our_vision{
+        padding-right:0px;
+        width: 100%;
+    }
+    .abt_vision_img{
+        width: 60%;
+    }
+    /* vision end */
+}
+
+
+@media (min-width: 993px) and (max-width: 1200px) { /* Styles for large devices (large laptops) */
+    /* vision start */
+    .our_vision_container{
+        justify-content: space-between;
+    }
+    .our_vision{
+        padding-right:0px;
+        width: 45%;
+        margin-top: 0px;
+    }
+    .abt_vision_img{
+        width: 45%;
+        margin-top: 40px;
+    }
+    /* vision end */
+}
+
+
+@media (min-width: 1201px) { /* Styles for extra large devices (very large desktop monitors) */
+
+}
+
+
+/* responsive css end */
